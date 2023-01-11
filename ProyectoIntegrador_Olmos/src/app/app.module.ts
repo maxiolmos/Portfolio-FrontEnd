@@ -8,6 +8,7 @@ import { LoginYRedesComponent } from './components/login-y-redes/login-y-redes.c
 import { BannerComponent } from './components/banner/banner.component';
 import { InfoGralComponent } from './components/info-gral/info-gral.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MenuComponent } from './components/menu/menu.component';
     BannerComponent,
     InfoGralComponent,
     MenuComponent,
+    ExperienciaComponent,
   ],
   imports: [
     BrowserModule,
