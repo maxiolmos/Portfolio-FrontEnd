@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { LoginYRedesComponent } from './components/login-y-redes/login-y-redes.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { InfoGralComponent } from './components/info-gral/info-gral.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    LoginYRedesComponent,
+    BannerComponent,
+    InfoGralComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
