@@ -10,6 +10,7 @@ import { InfoGralComponent } from './components/info-gral/info-gral.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
+import { CursosComponent } from './components/cursos/cursos.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { EducacionComponent } from './components/educacion/educacion.component';
     MenuComponent,
     ExperienciaComponent,
     EducacionComponent,
+    CursosComponent,
   ],
   imports: [
     BrowserModule,
