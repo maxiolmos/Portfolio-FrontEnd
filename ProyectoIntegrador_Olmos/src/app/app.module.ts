@@ -13,6 +13,7 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     CursosComponent,
     HabilidadesComponent,
     ContactoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
