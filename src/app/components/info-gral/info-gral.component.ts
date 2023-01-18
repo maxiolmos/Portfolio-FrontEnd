@@ -1,10 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/service/persona.service';
 
 @Component({
   selector: 'app-info-gral',
   templateUrl: './info-gral.component.html',
   styleUrls: ['./info-gral.component.css']
 })
-export class InfoGralComponent {
+export class InfoGralComponent implements OnInit{
+  persona: persona = new persona("", "", "");
+
+  constructor(public personaService: PersonaService) {
+
+  }
+
+
+  ngOnInit(): void {
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
+  }
 
 }
