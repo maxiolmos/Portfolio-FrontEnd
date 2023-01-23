@@ -9,7 +9,8 @@
   
 
     <div class="text-end">
-      <button type="button" class="btn btn-outline-light me-2" (click)="login()">Login</button>
+      <button type="button" class="btn btn-outline-light me-2" (click)="login()" *ngIf="!isLogged">Login</button>
+      <button type="button" class="btn btn-outline-light me-2" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</button>
       
     </div>
 
